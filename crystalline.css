@@ -23,8 +23,7 @@ body {
     -webkit-transition: background 3s ease-in-out;
     transition: background 3s ease-in-out;
 
-    /* The picture source is from 书童hiroco at the link (thanks shinji257!):
-       https://www.pixiv.net/member_illust.php?mode=medium&illust_id=61734227
+    /* Windows Spotlight Picture for wintery-ish Feel
        */
     background: #fff url(https://i.imgur.com/LEzVVMo.jpg);
 
@@ -42,7 +41,7 @@ body {
        2nd value - Green 0-255
        3rd value - Blue 0-255
        4th value - Alpha (Opacity) 0.0-1.0 */
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.493);
 
     -webkit-transition: background 0.5s ease-in-out;
     transition: background 0.5s ease-in-out;
@@ -130,19 +129,19 @@ body {
 .bot-tag::before {
     content: "Bot";
     font-size: 10px;
-    background: rgba(0, 108, 200, 0.5) !important;
+    background: rgba(200, 0, 0, 0.562) !important;
     padding: 0 2px 0 2px;
     color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .context-menu{
-    background-color: rgba(42, 42, 42, 0.8)
+    background-color: rgba(42, 42, 42, 0.493)
 }
 
 div.theme-dark.context-menu,
 .theme-dark.context-menu .item,
 div.theme-dark.context-menu.item.item-subMenu{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0 !important;
     border: 0 !important;
     border-image-width: 0 !important;
@@ -177,24 +176,24 @@ div.theme-dark.context-menu.item.item-subMenu{
 }
 
 .theme-dark.context-menu .context-menu{
-    background-color: rgba(42, 42, 42, 0.8) !important;
+    background-color: rgba(42, 42, 42, 0.493) !important;
 }
 
 .theme-dark .invite-button{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     border: 0;
     border-radius: 0;
 }
 
 .invite-button.can-click{
     border-radius: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     border: none;
 }
 
 .invite-button .invite-button-body,
 .invite-button .invite-button-header{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.493);
 }
 
 .invite-button-body{
@@ -229,7 +228,7 @@ div.theme-dark.context-menu.item.item-subMenu{
 .need-help-modal .footer{
     border: 0;
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .need-help-modal .header input[type=text]{
@@ -249,7 +248,7 @@ div.theme-dark.context-menu.item.item-subMenu{
 .settings .settings-inner:first-child,
 .settings .settings-actions
 {
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border: 0;
     border-radius: 0 !important;
 }
@@ -338,7 +337,7 @@ input.game-input{
 
 .Select-menu-outer{
     margin-top: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border: 0;
     border-radius: 0;
 }
@@ -456,7 +455,7 @@ input.game-input{
 }
 
 .instant-invite-modal{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0;
 }
 
@@ -601,7 +600,7 @@ div.control-group .shortcut-recorder input[type=text]{
 
 .account .btn-group .btn {
     border-radius: 15px;
-    background: rgba(0, 0, 0, 0.3) !important;
+    background: rgba(0, 0, 0, 0.1) !important;
     box-shadow: none;
     outline: 0;
     border: 0 !important;
@@ -609,7 +608,7 @@ div.control-group .shortcut-recorder input[type=text]{
 
 .account .btn-group .btn:hover {
     border-radius: 15px;
-    background: rgba(0, 0, 0, 0.7) !important;
+    background: rgba(0, 0, 0, 0.3) !important;
     box-shadow: 0;
     border: 0 !important;
 }
@@ -639,7 +638,7 @@ div.control-group .shortcut-recorder input[type=text]{
 }
 
 .theme-dark .message-group .embed{
-    background-color: rgba(10, 10, 10, 0.5);
+    background-color: rgba(10, 10, 10, 0.1);
     border-radius: 0;
     border: 0;
 }
@@ -653,7 +652,7 @@ div.control-group .shortcut-recorder input[type=text]{
 }
 
 .theme-dark .reaction{
-    background-color: rgba(10, 10, 10, 0.3);
+    background-color: rgba(10, 10, 10, 0.1);
     border-radius: 0;
 }
 
@@ -663,7 +662,7 @@ div.control-group .shortcut-recorder input[type=text]{
 }
 
 .message-reactions-modal .message-reactions-list .scroller-wrap{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 0;
 }
 
@@ -672,7 +671,7 @@ div.control-group .shortcut-recorder input[type=text]{
 }
 
 .message-reactions-modal .message-reactions-reactors{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42,0.493);
 }
 
 .message-reactions-modal .message-reactions-reactors .reactor{
@@ -705,7 +704,7 @@ div.control-group .shortcut-recorder input[type=text]{
 
 .theme-dark .channel-textarea-autocomplete-inner header{
     border: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .channel-textarea-autocomplete-inner header strong{
@@ -715,7 +714,7 @@ div.control-group .shortcut-recorder input[type=text]{
 .theme-dark .channel-textarea-autocomplete-inner{
     border: 0;
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .theme-dark .channel-textarea-autocomplete-inner ul li.active{
@@ -731,7 +730,7 @@ div.control-group .shortcut-recorder input[type=text]{
 }
 
 .channel-textarea-guard .countdown .countdown-number{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0;
     border: none;
 }
@@ -828,7 +827,7 @@ div.message-group-blocked{
 }
 
 #rtc-connection .btn{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #rtc-connection .btn-info{
@@ -841,7 +840,7 @@ div.message-group-blocked{
 }
 
 #rtc-connection-popout hr{
-    border-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.1);
 }
 
 
@@ -862,7 +861,7 @@ h3{
 }
 
 .popout section{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0 !important;
 }
 
@@ -872,11 +871,11 @@ h3{
 }
 
 .popout header{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .popout-menu{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0;
 }
 
@@ -920,7 +919,7 @@ h3{
 }
 
 .small-popout-box{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0;
     border: 0;
 }
@@ -948,11 +947,11 @@ h3{
 }
 
 .private-channels .channel:hover{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .private-channels .channel.selected{
-    background-color: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.22);
 }
 
 .theme-dark .private-channel-recipients-invite .friend.selected{
@@ -980,7 +979,7 @@ h3{
 }
 
 .theme-dark .chat .private-channel-call{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
 
     /* You can have your own image here if you want.
 
@@ -990,7 +989,7 @@ h3{
 
 .theme-dark .ui-quick-select-popout{
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .ui-quick-select-popout-option:hover{
@@ -1003,7 +1002,7 @@ h3{
 
 .incoming-call .incoming-call-inner{
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .incoming-call .options .option{
@@ -1093,7 +1092,7 @@ h3{
 
 
 div.guild-header{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     height: 57px;
 }
 
@@ -1132,7 +1131,7 @@ div.guild-header{
 }
 
 .region-select-modal{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0;
 }
 
@@ -1156,7 +1155,7 @@ div.guild-header{
 }
 
 .search-bar.search-bar-light .search-bar-inner{
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
     border-radius: 0 !important;
     border: 0;
 }
@@ -1238,7 +1237,7 @@ div.guild-header{
 }
 
 .color-picker-popout{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0;
     border: 0;
     box-shadow: none;
@@ -1338,18 +1337,18 @@ div.guild-header{
 
 .tooltip{
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .friends-header{
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
     height: 57px !important;
     border: 0 !important;
 }
 
 
 .search-bar{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     box-shadow: none;
 }
 
@@ -1363,7 +1362,7 @@ div.guild-header{
 }
 
 .guilds-wrapper{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .guilds-wrapper .guilds-add{
@@ -1376,7 +1375,7 @@ div.guild-header{
 }
 
 .guild-channels .channel-text.selected{
-    background-color: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.22);
 }
 
 .guild-channels .channel-text:hover{
@@ -1388,7 +1387,7 @@ div.guild-header{
 }
 
 .create-guild-container .create-or-join .form-inner{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0;
 }
 
@@ -1398,7 +1397,7 @@ div.guild-header{
 
 .create-guild-container .action.create .action-header,
 .create-guild-container .action.join .action-header{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.493);
 }
 
 .theme-dark .channel-members{
@@ -1414,11 +1413,11 @@ div.guild-header{
 }
 
 .channel-members .member:hover{
-    background: rgba(0, 0, 0, 0.42) !important;
+    background: rgba(0, 0, 0, 0.22) !important;
 }
 
 .theme-dark .channel-members .member.popout-open{
-    background-color: rgba(0, 0, 0, 0.42) !important;
+    background-color: rgba(0, 0, 0, 0.22) !important;
 }
 
 .theme-dark .channel-members .member:not(.disabled).popout-open,
@@ -1500,7 +1499,7 @@ div.guild-header{
 }
 
 #autocomplete-popout section{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 #autocomplete-popout .row.selected{
@@ -1509,7 +1508,7 @@ div.guild-header{
 }
 
 #autocomplete-popout header{
-    background-color: rgba(33, 33, 33, 0.9);
+    background-color: rgba(33, 33, 33, 0.6);
 }
 
 #autocomplete-popout .row a,
@@ -1535,12 +1534,12 @@ div.guild-header{
 .quick-message{
     border: 0 !important;
     border-radius: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
     color: rgba(255, 255, 255, 0.8);
 }
 
 .quick-message.isBlocked{
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 .channel-textarea-guard button{
@@ -1552,7 +1551,7 @@ input:disabled{
 }
 
 .markdown-modal{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0;
 }
 
@@ -1582,7 +1581,7 @@ input:disabled{
 .theme-dark .channel-textarea-inner{
     border: 0;
     border-radius: 0;
-    background-color: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.22);
 }
 
 .theme-dark .channel-textarea-inner .channel-textarea-upload{
@@ -1615,16 +1614,16 @@ input:disabled{
 }
 
 .theme-dark .themed-popout .header{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .theme-dark .themed-popout{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 
 .theme-dark .messages-popout-wrap .messages-popout .message-group{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 0;
     border: 0 !important;
     box-shadow: 0 0;
@@ -1657,7 +1656,7 @@ input:disabled{
 }
 
 div.search{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 div.search-bar{
@@ -1693,7 +1692,7 @@ span.discriminator{
 
 #user-profile-modal .empty,
 #user-profile-modal .scroller{
-    background-color: rgba(42, 42, 42, 0.42);
+    background-color: rgba(42, 42, 42, 0.22);
 }
 
 #user-profile-modal header {
@@ -1753,12 +1752,12 @@ span.discriminator{
 }
 
 .emoji-picker .header{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
     border: 0 !important;
 }
 
 div.emoji-picker{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border: 0 !important;
     border-radius: 0 !important;
 }
@@ -1778,12 +1777,12 @@ input.emoji-name.input{
 }
 
 .deprecated-settings-modal .settings-inner{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .deprecated-settings-modal .settings-actions{
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border: none;
 }
 
@@ -1798,7 +1797,7 @@ input.emoji-name.input{
 
 div.search-header,
 div.search-results-wrap{
-    background-color: rgba(0, 0, 0, 0.2) !important;
+    background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 div.emoji-picker .sticky-header,
@@ -1807,7 +1806,7 @@ span.channel-name{
 }
 
 .theme-dark .search .search-bar{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .theme-dark .search-popout{
@@ -1819,7 +1818,7 @@ span.channel-name{
 }
 
 .search-popout .search-query{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     border: 0;
 }
 
@@ -1829,7 +1828,7 @@ span.channel-name{
 
 .theme-dark .theme-light .ui-calendar-picker .react-datepicker,
 .theme-light .ui-calendar-picker .react-datepicker{
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 .theme-dark .theme-light .ui-calendar-picker .react-datepicker__header,
@@ -1838,7 +1837,7 @@ span.channel-name{
 }
 
 .search-popout .date-picker{
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.15);
     border: 0;
 }
 
@@ -1860,7 +1859,7 @@ span.channel-name{
 .react-datepicker{
     border-radius: 0;
     background-color: rgba(42, 42, 42, 0);
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.493);
 }
 
 .react-datepicker .react-datepicker__header{
@@ -1950,11 +1949,11 @@ div.jump-button{
 
 div.option.selected{
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.42) !important;
+    background-color: rgba(42, 42, 42, 0.22) !important;
 }
 
 div.results-group{
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
     border-radius: 0 !important;
     border: 0;
     box-shadow: none !important;
@@ -1962,7 +1961,7 @@ div.results-group{
 
 
 .theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb{
-    background-color: rgba(0, 0, 0, 0.42) !important;
+    background-color: rgba(0, 0, 0, 0.22) !important;
     border: none !important;
 }
 .theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
@@ -2009,11 +2008,11 @@ div.option.history.selected::after
 /* search popout */
 
 div.popout.popout-bottom.no-shadow.search-popout{
-    background-color: rgba(42, 42, 42, 0.5) !important;
+    background-color: rgba(42, 42, 42, 0.3) !important;
 }
 
 div.search-result-message.hit{
-    background-color: rgba(0, 0, 0, 0.42) !important;
+    background-color: rgba(0, 0, 0, 0.22) !important;
     box-shadow: 0 0 !important;
     border: 0 !important;
 }
@@ -2096,7 +2095,7 @@ span.amount {
 }
 
 .quickswitcher.dark{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0;
     box-shadow: none;
 }
@@ -2166,7 +2165,7 @@ span.amount {
 }
 
 .ui-search-bar{
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
     border-radius: 0;
 }
 
@@ -2179,7 +2178,7 @@ span.amount {
 }
 
 .dark-elevation-border-high, .theme-dark .elevation-border-high{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     box-shadow: none;
 }
 
@@ -2239,12 +2238,12 @@ span.amount {
 
 .theme-dark .ui-standard-sidebar-view .sidebar-region,
 .theme-dark .ui-standard-sidebar-view .sidebar-region .scrollbar{
-    background-color: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.22);
 }
 
 .theme-dark .ui-standard-sidebar-view .content-region,
 .theme-dark .ui-standard-sidebar-view .content-region .scrollbar{
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 .theme-dark .ui-hover-card:before{
@@ -2253,7 +2252,7 @@ span.amount {
 
 .theme-dark .ui-modal,
 .theme-dark .ui-modal-content{
-    background-color: rgba(42, 42, 42, 0.42);
+    background-color: rgba(42, 42, 42, 0.22);
     border-radius: 0;
 }
 
@@ -2268,16 +2267,16 @@ span.amount {
 }
 
 .theme-dark .ui-select .Select-option:hover{
-    background-color: rgba(84, 84, 84, 0.8) !important;
+    background-color: rgba(84, 84, 84, 0.493) !important;
 }
 
 .theme-dark .ui-select .Select-option{
-    background-color: rgba(42, 42, 42, 0.8) !important;
+    background-color: rgba(42, 42, 42, 0.493) !important;
 }
 
 .theme-dark .ui-select .Select-control{
     border-radius: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .Select-option:last-child{
@@ -2291,7 +2290,7 @@ span.amount {
 
 .theme-dark .ui-select .Select-option.is-selected{
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .theme-dark .ui-select .Select-option.is-selected:hover{
@@ -2329,7 +2328,7 @@ span.amount {
 }
 
 .dark-elevation-border-low, .theme-dark .elevation-border-low{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border: none;
 }
 
@@ -2371,7 +2370,7 @@ span.amount {
 
 .roles-list-popout{
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .ui-flex.flex-horizontal>.ui-flex{
@@ -2385,7 +2384,7 @@ span.amount {
 .theme-dark .ui-text-input .input,
 .theme-dark .ui-text-input .input.editable:focus,
 .theme-dark .ui-text-input .input.editable:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .ui-button.white.outlined{
@@ -2412,7 +2411,7 @@ span.amount {
 }
 
 .theme-dark .ui-text-input.emoji-alias-input .input{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .theme-dark .ui-card.outline{
@@ -2483,11 +2482,11 @@ span.amount {
 }
 
 .contentSelectedText-3j5CXt{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .content-2mSKOj:hover{
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 .container-RYiLUQ,
@@ -2509,11 +2508,11 @@ span.amount {
 .container-iksrDt,
 .header-1tSljs:hover,
 .popout-open .header-1tSljs{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .container-3lnMWU{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     border-bottom: none;
 }
 
@@ -2524,7 +2523,7 @@ span.amount {
 }
 
 .wrapper-2ldvyE{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 0;
 }
 
@@ -2547,13 +2546,13 @@ span.amount {
 
 .light-elevation-border-high,
 .theme-light .elevation-border-high{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0;
     box-shadow: none;
 }
 
 .ui-new-terms-modal .button-container{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border: none;
 }
 
@@ -2567,7 +2566,7 @@ span.amount {
 
 .theme-dark .modal-3HOjGZ{
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     box-shadow: none;
 }
 
@@ -2577,7 +2576,7 @@ span.amount {
 }
 
 .theme-dark .input-2YozMi{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .theme-dark .message-25xg43{
@@ -2595,23 +2594,23 @@ span.amount {
 }
 
 .theme-dark .headerClickable-1jGUp8, .theme-dark .headerDefault-1ajMkj{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .theme-dark .headerExpanded-wW1rBx{
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .theme-dark .divider-ShvCWe{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .theme-dark .changeDetails-zbf-61{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .theme-dark .copyInputDefault-36NOFa{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 0;
     border: none;
 }
@@ -2630,7 +2629,7 @@ span.amount {
 
 .theme-dark .elevationHigh-3lNfp9{
     border-radius: 0;
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .theme-dark .bubble-17BwqU:before{
@@ -2649,12 +2648,12 @@ span.amount {
 /* Discord update 2017/7/21 */
 
 .theme-dark .inner-3if5cm{
-    background-color: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.22);
     border-radius: 0;
 }
 
 .theme-dark .autocomplete-1TnWNR{
-    background-color: rgba(10, 10, 10, 0.9);
+    background-color: rgba(10, 10, 10, 0.5);
     border-radius: 0;
 }
 
@@ -2688,7 +2687,7 @@ span.amount {
 
 .body-3rkFrF,
 .footer-2J5zqP{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border: none;
 }
 
@@ -2761,7 +2760,7 @@ span.amount {
 }
 
 .theme-dark .footer-1PYmcw{
-    background: rgba(0, 0, 0, 0.42) !important;
+    background: rgba(0, 0, 0, 0.22) !important;
     border-radius: 0;
     box-shadow: none;
     border: none;
@@ -2854,16 +2853,16 @@ span.amount {
 }
 
 .need-help-modal.deprecated{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42,0.493);
 }
 
 .need-help-modal.deprecated .header{
-    background-color: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.22);
     border-radius: 0;
 }
 
 .need-help-modal.deprecated .header input[type=text]{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.493);
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -2880,13 +2879,13 @@ span.amount {
 }
 
 .theme-dark .quickswitcher-2NdiGJ{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
     border-radius: 0;
 }
 
 .theme-dark .tipsWithoutResults-202oQR,
 .theme-dark .tipsWithResults-3TVZGE{
-    background-color: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.22);
     margin: 0 -21px -1px -21px;
     padding-left: 21px;
     padding-right: 21px;
@@ -2895,7 +2894,7 @@ span.amount {
 }
 
 .theme-dark .input-MwQhcX{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 0;
     box-shadow: none;
     color: rgba(255, 255, 255, 0.9);
@@ -2990,7 +2989,7 @@ span.amount {
 
 .theme_dark-2FtE3l{
     background: none;
-    background-color: rgba(0, 0, 0, 0.77);
+    background-color: rgba(0, 0, 0, 0.37);
 }
 
 /* Other stuff discord changed */
@@ -2998,11 +2997,11 @@ span.amount {
 .theme-dark .container-a2vS7i,
 .theme-dark .reactors-2PjMP0,
 .theme-dark .sidebar-32BRdp{
-    background-color: rgba(22, 22, 22, 0.8);
+    background-color: rgba(22, 22, 22, 0.493);
 }
 
 .scroller-2IVcoQ{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .reactionDefault-2V6kdV,
@@ -3020,7 +3019,7 @@ span.amount {
 }
 
 .typeWindows-15E0Ys{
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.6);
     margin-top: 0;
     padding-top: 4px;
 }
@@ -3041,7 +3040,7 @@ span.amount {
 }
 
 .theme-dark .title-qAcLxz{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     box-shadow: none;
 }
 
@@ -3051,7 +3050,7 @@ span.amount {
 }
 
 .Select-option{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .Select .Select-menu{
@@ -3074,14 +3073,14 @@ span.amount {
 /* Discord Canary update 2017/10/26 */
 
 .theme-dark .headerBar-cxbhPD{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     box-shadow: none;
 }
 
 /* Other CSS Fixes */
 
 .tooltip.tooltip-black{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .tooltip.tooltip-black.tooltip-top:after{
@@ -3186,7 +3185,7 @@ span.discriminator{
 .theme-dark .wrapper-uAa07y{
     border-radius: 0;
     border: none;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .iconActiveLarge-3wrcgc{
@@ -3212,11 +3211,11 @@ span.discriminator{
 }
 
 .topSectionNormal-2LlRG1{
-    background-color: rgba(42, 42, 42, 0.8);
+    background-color: rgba(42, 42, 42, 0.493);
 }
 
 .theme-dark .body-3_tdh6{
-    background-color: rgba(22, 22, 22, 0.8);
+    background-color: rgba(22, 22, 22, 0.493);
 }
 
 .tabBarContainer-3RVZc-{
@@ -3242,7 +3241,7 @@ span.discriminator{
 
 .theme-dark .headerNormal-1cioxU{
     /*padding: 0;*/
-    background-color: rgba(52, 52, 52, 0.8);
+    background-color: rgba(52, 52, 52, 0.493);
 }
 
 .theme-dark .body-3rkFrF,
@@ -3308,5 +3307,5 @@ span.discriminator{
 }
 
 .container-2oOGIt{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.493);
 }
